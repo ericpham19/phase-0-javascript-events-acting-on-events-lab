@@ -24,10 +24,12 @@ function moveDodgerRight(){
 document.addEventListener('keydown',function(event){
     if (event.keyCode === 37){
        moveDodgerLeft();
+    }
+    
     if (event.keyCode === 39){
         moveDodgerRight();
     }
-    }
+    
     
 });
 
